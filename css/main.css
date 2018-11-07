@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("./navigation.css");
+@import url("./hover.css");
+@import url("./buttons.css");
+@import url("./inputs.css");
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.thoxyn-card {
+    border: 2px solid  #ececec;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    background-color: white;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    border-radius: 25px;
+}
+
+.thoxyn-card hr {
+    display: block;
+    width: 25px;
+}
+
+.card-title {
+    font-size: 37px;
+    color: black;
+    right: 10px;
+}
+
+.card-subtitle {
+    font-size: 12px;
+    color: darkgray;
+}
+
+.card-subtitle a {
+    text-decoration: none;
+    color: gray;
+}
+
+.card-profile {
+    float: left;
+}
+
+.thoxyn-card img {
+    display: block;
+    float: left;
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+    clear: left;
+}
+
+.card-titles p {
+    top: 0;
+    margin-left: 50px;
+}
+
+.btn-link {
+    color: gray;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    color: darkgray;
+    text-decoration: none;
+}

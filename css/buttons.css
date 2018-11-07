@@ -1,0 +1,61 @@
+.btn {
+    margin: 0 auto;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-white {
+    color: white;
+}
+  
+.btn:hover {
+    background-position: right center;
+    text-decoration: none;
+}
+  
+.btn-grad-red {
+    background-image: linear-gradient(to right, #EB3349 0%, #F45C43 51%, #EB3349 100%);
+}
+  
+.btn-grad-blue {
+    background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA 51%, #1FA2FF 100%);
+}
+  
+.btn-grad-gray {
+    background-image: linear-gradient(to right, #232526 0%, #414345 51%, #232526 100%);
+}
+
+.btn-grad-purple {
+    background-image: linear-gradient(to right, #4776E6 0%, #8E54E9 51%, #4776E6 100%);
+}
+
+.btn-solid-red {
+    background-color: #EB3349;
+}
+  
+.btn-solid-blue {
+    background-color: #1FA2FF;
+}
+  
+.btn-solid-gray {
+    background-color: #414345;
+}
+
+.btn-solid-purple {
+    background-color: #8E54E9;
+}
+
+.btn-50 {
+    width: 50%;
+}
